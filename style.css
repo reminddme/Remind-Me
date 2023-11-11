@@ -1,0 +1,44 @@
+/*====================== GOOGLE FONTS ===================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/good-dog');
+
+:root {
+    --primary-color: #C3B1D7; 
+    --gray-color: #D9D9D9;
+    --button-color: #8247CF;
+    --button-hover: #7933AE;
+    --input-focus: #FCB75E;
+    --text-color: #000000;
+
+    --font-bold: 500;
+    --font-regular: 300;
+    --font-light: 100;
+
+    --font-size-title: 2.5rem;
+    --font-size-subtitle: 1.2rem;
+    --font-size-rodape: .9rem;
+
+    --border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
