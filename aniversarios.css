@@ -5,10 +5,7 @@
     font-family: 'GoodDog Plain', sans-serif;
 } */
 body{
-    background-image: linear-gradient(
-        #A360FA,
-        #C3B1D7
-    );
+    background-color:#A360FA;
 }
 
 .container img{
@@ -35,9 +32,9 @@ select {
     border-radius: 4px;
 }
 
-.form>input:focus {
-    border: 2px solid var(--input-focus);
+input, select:focus {
     outline: none;
+    border: 2px solid var(--input-focus);
 }
 
 button {
